@@ -5,3 +5,7 @@ header_pages:
   - about.md
 minima:
   show_excerpts: true
+  social_links:
+    - title: aikitchen
+      icon: github
+      url: "https://github.com/mvervuurt/aikitchen"
