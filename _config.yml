@@ -4,3 +4,8 @@ title: AI Kitchen
 description: Window with a view on AI and Agents
 header_pages:
   - about.md
+minima:
+  social_links:
+    - title: aikitchen
+      icon: github
+      url: "https://github.com/mvervuurt/aikitchen"
