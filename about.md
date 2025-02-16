@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 
-**[aikitchen](https://github.com/mvervuurt/aikitchen)**  
+**aikitchen**  
 AI and Agents kitchen.  
 This blog accompanies the github repository: [aikitchen](https://github.com/mvervuurt/aikitchen).
 
