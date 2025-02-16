@@ -1,5 +1,5 @@
 ---
-title: AI and Agents Kitchen
+title: AI and Agents Blog
 list_title: AI Blog Posts
 layout: home
 ---
