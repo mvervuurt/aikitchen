@@ -1,7 +1,6 @@
 ---
-title: AI and Agents Blog
-list_title: AI Blog Posts
+title: Blogging on AI and Agents
+list_title: Blog Posts
 layout: home
 ---
-Blog posts on AI and Agents.  
 This blog accompanies the github repository: [aikitchen](https://github.com/mvervuurt/aikitchen).
