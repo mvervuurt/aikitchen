@@ -1,6 +1,6 @@
-<header>
+<h1>
 Your AI and Agents Kitchen
-</header>
+</h1>
 
 <footer>
 https://mvervuurt.github.io/aikitchen/
