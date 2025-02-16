@@ -4,7 +4,7 @@ layout: page
 ---
 
 **[aikitchen](https://github.com/mvervuurt/aikitchen)**  
-An AI and Agents kitchen.
+AI and Agents kitchen.
 
-**Mark**  
+**Me**  
 Passionate about AI Engineering and Research!
