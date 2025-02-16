@@ -1,5 +1,5 @@
 <h1>
-Your AI and Agents Kitchen
+AI and Agents Kitchen
 </h1>
 
 <footer>
