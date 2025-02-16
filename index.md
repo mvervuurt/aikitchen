@@ -1,5 +1,5 @@
 ---
-title: An AI and Agent Kitchen
+title: AI and Agent Kitchen
 layout: home
 ---
 Window with a view on AI and Agents.  
