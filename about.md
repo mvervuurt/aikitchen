@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 
-**aikitchen**  
+**[aikitchen](https://github.com/mvervuurt/aikitchen)**  
 An AI and Agents kitchen.
 
 **Mark Vervuurt**  
