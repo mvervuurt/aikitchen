@@ -1,11 +1,11 @@
 title: AI Kitchen
-description: Window with a view on AI and Agents
+description: an AI and Agent Kitchen
 theme: minima
 header_pages:
   - about.md
-# minima:
-#   show_excerpts: true
-#   social_links:
-#     - title: aikitchen
-#       icon: github
-#       url: "https://github.com/mvervuurt/aikitchen"
+minima:
+  show_excerpts: true
+  social_links:
+    - title: aikitchen
+      icon: github
+      url: "https://github.com/mvervuurt/aikitchen"
