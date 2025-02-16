@@ -1,7 +1,7 @@
 title: AI Kitchen
 description: AI and Agents Kitchen </br> [aikitchen](https://github.com/mvervuurt/aikitchen)
+#remote_theme: jekyll/minima
 theme: minima
-# remote_theme: "jekyll/minima@3.0"
 header_pages:
   - about.md
 minima:
