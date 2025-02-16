@@ -1,3 +1,6 @@
 theme: minima
+  show_excerpts: true
 title: AI Kitchen
 description: Window with a view on AI and Agents
+header_pages:
+  - about.md
