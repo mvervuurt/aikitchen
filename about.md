@@ -6,5 +6,5 @@ layout: page
 **[aikitchen](https://github.com/mvervuurt/aikitchen)**  
 An AI and Agents kitchen.
 
-**Mark Vervuurt**  
+**Mark**  
 Passionate about AI Engineering and Research!
