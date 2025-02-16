@@ -2,6 +2,8 @@ title: AI Kitchen
 description: AI and Agents Kitchen
 theme: minima
 # remote_theme: jekyll/minima
+plugins:
+  - jekyll-gist
 header_pages:
   - about.md
 minima:
