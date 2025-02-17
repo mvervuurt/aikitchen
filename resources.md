@@ -2,13 +2,19 @@
 title: AI Resources
 layout: page
 ---
-## AI
+## AI  
+
 ### Papers
-- Large Concept Models
+- Large Concept Models  
+
 ### Links
-- Berkeley Blog Compound AI Systems
-## Agents
-### Papers
+- Berkeley Blog Compound AI Systems  
+
+## Agents  
+
+### Papers  
+
 ### Links
-- [Anthropic Agent Patterns](https://www.anthropic.com/research/building-effective-agents)
+- [Anthropic Agent Patterns](https://www.anthropic.com/research/building-effective-agents)  
+
 ## Books
