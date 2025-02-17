@@ -1,8 +1,5 @@
-<h1>
-AI and Agents Kitchen
-</h1>
+# AI and Agents Kitchen  
+Here is the blog accompanying this github repository: [aikitchen blog](https://mvervuurt.github.io/aikitchen/).
 
-<footer>
-Here is the blog accompanying this github repository:</br>
-https://mvervuurt.github.io/aikitchen/
-</footer>
+## Repository Content
+- Promptflow
