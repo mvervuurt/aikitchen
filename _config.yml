@@ -7,7 +7,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-gist
 header_pages:
-  - papers.md
+  - resources.md
   - about.md
 minima:
   show_excerpts: true
