@@ -41,6 +41,7 @@ Thumbs.db
 uv.lock
 .python-version
 .venv
+dist/
 
 # VS Code #
 ###########
