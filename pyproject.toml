@@ -12,5 +12,7 @@ dependencies = [
     "promptflow>=1.17.2",
     "promptflow-azure>=1.17.2",
     "promptflow-tools>=1.5.0",
+    "pydantic>=2.10.6",
+    "pydantic-settings>=2.7.1",
     "ragas>=0.2.13",
 ]

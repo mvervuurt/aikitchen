@@ -46,3 +46,7 @@ dist/
 # VS Code #
 ###########
 .vscode/
+
+# Settings / Pydantic #
+#######################
+.ENV
