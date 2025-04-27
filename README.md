@@ -5,5 +5,3 @@
 * my AI [code samples](code/README.md)
 * my recommended AI papers (todo)
 * my recommended AI Agents [books](books/README.md)
-# aikitchen
-AI Engineering, Agents and Research!
