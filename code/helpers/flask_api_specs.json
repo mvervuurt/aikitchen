@@ -1,0 +1,155 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Demo API",
+        "version": "1.0.0",
+        "description": "API for managing simple financial records."
+    },
+    "paths": {
+        "/add_record": {
+            "post": {
+                "summary": "Add a new financial record",
+                "requestBody": {
+                    "description": "Financial record to add",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "amount": {
+                                        "type": "number",
+                                        "example": 200
+                                    },
+                                    "description": {
+                                        "type": "string",
+                                        "example": "Bonus"
+                                    }
+                                },
+                                "required": ["amount", "description"]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Record added successfully",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "message": {
+                                            "type": "string",
+                                            "example": "Record added successfully"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid data",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "error": {
+                                            "type": "string",
+                                            "example": "Invalid data"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/get_record/{record_id}": {
+            "get": {
+                "summary": "Get a financial record by its ID",
+                "parameters": [
+                    {
+                        "name": "record_id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "description": "ID of the financial record"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Record found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "amount": {
+                                            "type": "number",
+                                            "example": 100
+                                        },
+                                        "description": {
+                                            "type": "string",
+                                            "example": "Salary"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Record not found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "error": {
+                                            "type": "string",
+                                            "example": "Record not found"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/list_records": {
+            "get": {
+                "summary": "List all financial records",
+                "responses": {
+                    "200": {
+                        "description": "List of records",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "amount": {
+                                                "type": "number",
+                                                "example": 100
+                                            },
+                                            "description": {
+                                                "type": "string",
+                                                "example": "Salary"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
