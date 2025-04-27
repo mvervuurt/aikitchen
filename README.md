@@ -1,4 +1,4 @@
-## AI Engineering, Agents and Research!
+## AI Engineering and Agents!
 
 <img src="assets/images/IMG_5996.PNG" align="left" hspace="20" height="300" width="250">
 
