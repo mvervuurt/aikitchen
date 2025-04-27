@@ -175,3 +175,6 @@ cython_debug/
 
 #DS_Store MacOS Finder Files
 .DS_Store
+
+#Promptflow run
+.promptflow
