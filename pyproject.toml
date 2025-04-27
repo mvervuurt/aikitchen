@@ -1,0 +1,20 @@
+[project]
+name = "aikitchen"
+version = "0.0.1"
+description = "AI and Agents Kitchen"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dspy>=2.6.3",
+    "flask>=3.1.0",
+    "mlflow>=2.20.2",
+    "notebook>=7.3.2",
+    "ollama>=0.4.8",
+    "openai>=1.63.0",
+    "promptflow>=1.17.2",
+    "promptflow-azure>=1.17.2",
+    "promptflow-tools>=1.5.0",
+    "pydantic>=2.10.6",
+    "pydantic-settings>=2.7.1",
+    "ragas>=0.2.13",
+]
