@@ -1,4 +1,4 @@
-## AI Engineering and Agents!
+## Passionate about AI Engineering, Agents and Research!
 
 <img src="assets/images/IMG_5996.PNG" align="left" hspace="20" height="300" width="250">
 
