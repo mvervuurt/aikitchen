@@ -1,0 +1,7 @@
+$schema: https://azuremlschemas.azureedge.net/promptflow/latest/Run.schema.json
+# name: run_2
+flow: .
+data: data.jsonl
+#run: <Uncomment to select a run input>
+column_mapping:
+  user_question: ${data.user_question}  # Maps input data to flow input

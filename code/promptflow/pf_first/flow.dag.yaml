@@ -1,0 +1,23 @@
+inputs:
+  user_question:
+    type: string
+    default: What is insurance?
+outputs:
+  ollama_api_call:
+    type: string
+    reference: ${ollama_api_call.output}
+nodes:
+- name: qa_prompt
+  type: prompt
+  source:
+    type: code
+    path: qa_prompt.jinja2
+  inputs:
+    user_question: ${inputs.user_question}
+- name: ollama_api_call
+  type: python
+  source:
+    type: code
+    path: ollama_api_call.py
+  inputs:
+    input1: ${qa_prompt.output}
